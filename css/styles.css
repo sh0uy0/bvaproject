@@ -6,7 +6,7 @@ nav ul a {
   }
   .parallax img {
     width: 1517px;
-    /* background-image: url(/testing/images/IMG_2701.jpg);
+    /* background-image: url(/images/IMG_2701.jpg);
     background-size: cover;
     background-attachment: fixed; */
   } 
@@ -177,7 +177,7 @@ nav.white ul li a:hover {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
 }
 div.letty {
-  background-image: url(/testing/images/IMG_2771.jpg);
+  background-image: url(images/IMG_2771.jpg);
   background-attachment: initial;
   background-size: cover;
   background-repeat: no-repeat;

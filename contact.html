@@ -90,7 +90,7 @@
         <div class="container drop">
             <div class="content islightlypadded row center white-text text-lighten-5">
                 <h4 class="header lighter ">Contact Page Header Text</h4>
-                <i class="ion-bonfire large black-text"></i>
+                <i class="ion-bonfire large black-text" data-aos="zoom-in" data-aos-easing="ease-in-sine"  data-aos-duration="2500"></i>
                 <h5 class="header col s12 lighter">Placeholder text. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, inventore voluptatum ducimus molestiae eum vitae?</h5>
             </div>
         </div>
@@ -99,7 +99,7 @@
 
     <div class="section3 lighter">
         <div class=" container ">
-            <div class="row hoverable smooth islightlypadded" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <div class="row hoverable smooth islightlypadded" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2500">
                 <span class="parallax-container">
                     <h4 class="blue-grey-text center  lighter">
                         Reach out to us :)
@@ -129,9 +129,9 @@
                                 <i class="material-icons prefix">mode_edit</i>
                                 <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
                                 <label for="icon_prefix2">Message</label>
-                                <button class="btn btn-large waves-effect waves-light light" type="submit" name="action">Submit
+                                <a onclick="handleClick();" class="btn btn-large waves-effect waves-light light" type="submit" name="action">Submit
                                     <i class="material-icons right">send</i>
-                                  </button>
+                                  </a>
                             </div>
                         </div>
                       </form>
@@ -150,7 +150,7 @@
         </div>
           <div class="row section1 center" >
 
-                    <div class="col l4 m4 s12 hoverable smooth " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+                    <div class="col l4 m4 s12 hoverable smooth " data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000">
                         <h5 class="blue-grey-text xpadding light">Our address</h5>
                         <br>
                         <ul>
@@ -163,12 +163,12 @@
                         </ul>
                     </div>
 
-                    <div class="col l4 m4 s12 hoverable smooth " data-aos="flip-up" data-aos-duration="2000" >
+                    <div class="col l4 m4 s12 hoverable smooth " data-aos="flip-up" data-aos-duration="3000" >
                         <h5 class="blue-grey-text light">Connect With Us</h5>
                             <ul>
                                 <li>
                                     <span class="el elclaso">
-                                        <i class="iconmoon-facebook3 small"></i>
+                                        <i class="ion-social-facebook small"></i>
                                         <a class="center" href="#!">Facebook</a>
                                     </span>
                                 </li>
@@ -196,7 +196,7 @@
                             </ul>
                     </div>
                     
-                    <div class="col l4 m4 s12 hoverable smooth" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+                    <div class="col l4 m4 s12 hoverable smooth" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000">
                         <h5 class="blue-grey-text light">Reach us directly</h5>
                             <ul>
                             <br>
@@ -218,14 +218,18 @@
                     </div>
           </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright light">
         <div class="container">
-            <i class="material-icons small">copyright</i>
-                <a class="grey-text text-lighten-4 right" href="#!">All rights reserved. Nairobi, Kenya.</a>
+            <i class="material-icons hoverable circle islightlypadded small">copyright</i>
+            <div class="fixed-action-btn">
+                <a href="#header" class="btn-floating pulse btn-large blue-grey z-depth-3 btn tooltipped">
+                  <i class="ion-arrow-graph-up-right large"></i>
+                </a>
+              </div>
+                <a class="grey-text text-lighten-4 right islightlypadded" >All rights reserved. Nairobi, Kenya.</a>
         </div>
-    </div>
 </footer>
-    <script src="js/jquery-3.2.1.min.js"></script>
+    
     <script src="js/aos.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/init.js"></script>
